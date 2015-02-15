@@ -15,4 +15,4 @@
 #
 $(call inherit-product, device/lge/geehrc/full_geehrc.mk)
 
-PRODUCT_NAME := aosp_geehrc
+PRODUCT_NAME := aokp_geehrc

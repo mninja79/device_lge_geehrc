@@ -14,4 +14,7 @@
 # limitations under the License.
 #
 
-add_lunch_combo aokp_geehrc-userdebug
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_geehrc.mk \
+    $(LOCAL_DIR)/full_geehrc.mk \
+    $(LOCAL_DIR)/omni_geehrc.mk \
