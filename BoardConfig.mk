@@ -50,7 +50,6 @@ TARGET_BOOTLOADER_NAME=geehrc
 TARGET_BOARD_INFO_FILE := device/lge/geehrc/board-info.txt
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/geehrc/bluetooth
-TARGET_SPECIFIC_HEADER_PATH := device/lge/geehrc/include
 
 # Use the QCOM PowerHAL
 TARGET_USES_QCOM_POWERHAL := true
