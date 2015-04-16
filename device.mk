@@ -249,6 +249,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	hostapd_default.conf \
+<<<<<<< HEAD
+=======
+	wpa_supplicant.conf \
+>>>>>>> c765d7aa7114b95eaa5e107ca9f6bb61c3f08e08
 	wpa_supplicant_overlay.conf \
 	p2p_supplicant_overlay.conf
 
@@ -298,6 +302,14 @@ PRODUCT_PACKAGES += \
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
+<<<<<<< HEAD
+=======
+PRODUCT_PACKAGES += \
+	qcmediaplayer
+
+PRODUCT_BOOT_JARS += qcmediaplayer
+
+>>>>>>> c765d7aa7114b95eaa5e107ca9f6bb61c3f08e08
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # This is the geehrc-specific audio package

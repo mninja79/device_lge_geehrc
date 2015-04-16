@@ -14,4 +14,8 @@
 # limitations under the License.
 #
 
+<<<<<<< HEAD
 add_lunch_combo slim_geehrc-userdebug
+=======
+add_lunch_combo du_geehrc-userdebug
+>>>>>>> c765d7aa7114b95eaa5e107ca9f6bb61c3f08e08

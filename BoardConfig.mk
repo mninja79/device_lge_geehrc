@@ -169,3 +169,8 @@ TW_MAX_BRIGHTNESS := 255
 
 #Asserts
 TARGET_OTA_ASSERT_DEVICE := gee,geeb,geehrc,e975,geehrc_4g_spr,geespr,ls970,geehrc4g,geehrc4g_spr_us,geebus,e970,e973,e971,geeb_att_us
+<<<<<<< HEAD
+=======
+
+BOARD_HARDWARE_CLASS += device/lge/geehrc/cmhw
+>>>>>>> c765d7aa7114b95eaa5e107ca9f6bb61c3f08e08
