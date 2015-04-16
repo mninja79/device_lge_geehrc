@@ -249,10 +249,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	hostapd_default.conf \
-<<<<<<< HEAD
-=======
 	wpa_supplicant.conf \
->>>>>>> c765d7aa7114b95eaa5e107ca9f6bb61c3f08e08
 	wpa_supplicant_overlay.conf \
 	p2p_supplicant_overlay.conf
 
