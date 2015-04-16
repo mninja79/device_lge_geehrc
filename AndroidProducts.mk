@@ -15,9 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-<<<<<<< HEAD
     $(LOCAL_DIR)/slim_geehrc.mk \
-=======
-    $(LOCAL_DIR)/du_geehrc.mk \
->>>>>>> c765d7aa7114b95eaa5e107ca9f6bb61c3f08e08
     $(LOCAL_DIR)/full_geehrc.mk
