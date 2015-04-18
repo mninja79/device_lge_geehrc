@@ -21,7 +21,6 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
-TARGET_QCOM_MEDIA_VARIANT := caf
 
 TARGET_NO_BOOTLOADER := true
 
@@ -32,7 +31,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 # build the kernel
 TARGET_KERNEL_SOURCE := kernel/lge/gee
-TARGET_KERNEL_CONFIG := solid_defconfig
+TARGET_KERNEL_CONFIG := gee_defconfig
 
 BOARD_USES_ALSA_AUDIO := true
 BOARD_USES_LEGACY_ALSA_AUDIO := false
